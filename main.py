@@ -28,7 +28,7 @@ def review_content_compliance(draft_content: str, brand_guidelines: str):
     """
 
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-3.8-flash',
         contents=prompt,
         config=types.GenerateContentConfig(
             temperature=0.2, # Lower temperature for analytical, objective compliance reviews
