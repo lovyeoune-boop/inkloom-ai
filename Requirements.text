@@ -1,5 +1,6 @@
-google-genai
 fastapi
 uvicorn
+google-genai
 sqlalchemy
 psycopg2-binary
+pydantic
