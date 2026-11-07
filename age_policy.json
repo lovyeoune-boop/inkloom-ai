@@ -1,0 +1,31 @@
+{
+  "age_labels": {
+    "under_5": "Under 5 years",
+    "5_8": "5–8 years",
+    "9_12": "9–12 years",
+    "13_17": "13–17 years"
+  },
+  "age_policy": {
+    "low": {
+      "under_5": "block",
+      "5_8": "review",
+      "9_12": "allow",
+      "13_17": "allow"
+    },
+    "medium": {
+      "under_5": "block",
+      "5_8": "block",
+      "9_12": "review",
+      "13_17": "review"
+    },
+    "high": {
+      "under_5": "block",
+      "5_8": "block",
+      "9_12": "block",
+      "13_17": "block"
+    }
+  },
+  "severity_policy_levels": {
+    "critical": "high"
+  }
+}

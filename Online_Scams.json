@@ -1,0 +1,18 @@
+{
+  "finding_category": "Inappropriate language",
+  "match_context": "Rule {id} detected configured {language} {match_type} language that may be unsuitable for {age_label}.",
+  "match_recommendation": "Review this wording in context and consider replacing it with age-appropriate language.",
+  "risk_context": "Rule-based demo detected a phrase that may need context review for {age_label}.",
+  "rules": [
+
+
+
+
+ ],
+  "risk_rules": [
+    
+[
+
+]
+  ]
+}

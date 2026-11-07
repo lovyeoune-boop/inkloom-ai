@@ -1,0 +1,570 @@
+{
+  "match_context": "Nation safety rule {id} detected a configured {language} {match_type} phrase for {age_label}.",
+  "match_recommendation": "Review this phrase in context; educational, historical, or reporting uses may need different treatment.",
+  "age_labels": {
+    "under_5": "Under 5 years",
+    "5_8": "5–8 years",
+    "9_12": "9–12 years",
+    "13_17": "13–17 years"
+  },
+  "rules": [
+    {
+      "id": "NAT001",
+      "term": "encourage violence between communities",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT002",
+      "term": "promote hatred between communities",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT003",
+      "term": "encourage communal violence",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT004",
+      "term": "promote religious discrimination",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT005",
+      "term": "encourage violence against minorities",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT006",
+      "term": "promote caste hatred",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT007",
+      "term": "encourage discrimination based on language",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT008",
+      "term": "promote violence against migrants",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT009",
+      "term": "encourage hatred based on ethnicity",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT010",
+      "term": "promote attacks against vulnerable communities",
+      "language": "en",
+      "category": "social_harmony",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT011",
+      "term": "steal confidential government documents",
+      "language": "en",
+      "category": "national_security",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT012",
+      "term": "leak classified defence information",
+      "language": "en",
+      "category": "national_security",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT013",
+      "term": "threaten national security personnel",
+      "language": "en",
+      "category": "national_security",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT014",
+      "term": "steal restricted government records",
+      "language": "en",
+      "category": "national_security",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT015",
+      "term": "compromise confidential government data",
+      "language": "en",
+      "category": "national_security",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT016",
+      "term": "sell stolen national security information",
+      "language": "en",
+      "category": "national_security",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT017",
+      "term": "blackmail officials for confidential information",
+      "language": "en",
+      "category": "national_security",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT018",
+      "term": "steal protected national records",
+      "language": "en",
+      "category": "national_security",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT019",
+      "term": "threaten public institutions",
+      "language": "en",
+      "category": "national_security",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT020",
+      "term": "disclose restricted defence information",
+      "language": "en",
+      "category": "national_security",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT021",
+      "term": "recruit children for terrorist activities",
+      "language": "en",
+      "category": "terrorism",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT022",
+      "term": "promote terrorist attacks against civilians",
+      "language": "en",
+      "category": "terrorism",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT023",
+      "term": "encourage terrorist recruitment",
+      "language": "en",
+      "category": "terrorism",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT024",
+      "term": "support violent extremist organizations",
+      "language": "en",
+      "category": "extremism",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT025",
+      "term": "encourage attacks on innocent people",
+      "language": "en",
+      "category": "terrorism",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT026",
+      "term": "promote extremist violence",
+      "language": "en",
+      "category": "extremism",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT027",
+      "term": "force children to join violent groups",
+      "language": "en",
+      "category": "child_protection",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT028",
+      "term": "glorify terrorist attacks against civilians",
+      "language": "en",
+      "category": "terrorism",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT029",
+      "term": "recruit people for violent extremist groups",
+      "language": "en",
+      "category": "extremism",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT030",
+      "term": "encourage violence against innocent communities",
+      "language": "en",
+      "category": "extremism",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT031",
+      "term": "threaten public gatherings",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT032",
+      "term": "encourage attacks on public events",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT033",
+      "term": "promote violence in schools",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT034",
+      "term": "threaten railway passengers",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT035",
+      "term": "encourage attacks on hospitals",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT036",
+      "term": "threaten emergency service workers",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT037",
+      "term": "promote violence in public transport",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT038",
+      "term": "encourage destruction of public facilities",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT039",
+      "term": "threaten public school communities",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT040",
+      "term": "encourage attacks on public transport",
+      "language": "en",
+      "category": "public_safety",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT041",
+      "term": "steal government database information",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT042",
+      "term": "blackmail government officials online",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT043",
+      "term": "spread malware targeting public institutions",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT044",
+      "term": "steal confidential public records",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT045",
+      "term": "impersonate government officials online",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT046",
+      "term": "commit online fraud using government identities",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT047",
+      "term": "steal citizens personal information",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT048",
+      "term": "blackmail citizens using stolen data",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT049",
+      "term": "create fake government websites for fraud",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT050",
+      "term": "steal digital identity information",
+      "language": "en",
+      "category": "cybercrime",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT051",
+      "term": "threaten voters during elections",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT052",
+      "term": "intimidate people to change their votes",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT053",
+      "term": "threaten election workers",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT054",
+      "term": "promote violence during elections",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "CRITICAL",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT055",
+      "term": "destroy election materials",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT056",
+      "term": "threaten peaceful political participants",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT057",
+      "term": "force citizens to vote for a candidate",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT058",
+      "term": "spread fabricated election results",
+      "language": "en",
+      "category": "election_misinformation",
+      "severity": "MEDIUM",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT059",
+      "term": "impersonate election officials",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT060",
+      "term": "prevent citizens from voting through threats",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT061",
+      "term": "burn flag",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    },
+    {
+      "id": "NAT062",
+      "term": "cut flag",
+      "language": "en",
+      "category": "election_safety",
+      "severity": "HIGH",
+      "match_type": "phrase",
+      "enabled": true
+    }
+  ]
+}
